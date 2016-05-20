@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OvalButton">
+        <attr name="borderColor" format="integer"/>
+        <attr name="borderSize" format="integer"/>
+        <attr name="Src" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="CustomSearchOne">
+        <attr name="mDrawableWidth" format="dimension"/>
+        <attr name="mDrawableHeight" format="dimension"/>
+        <attr name="src" format="integer"/>
+    </declare-styleable>
+</resources>

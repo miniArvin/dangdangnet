@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal">
+
+
+
+        <ImageButton
+            android:id="@+id/menu_home_rb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/home_tab_home_selector"
+            android:gravity="center"
+            android:checked="true" />
+
+        <ImageButton
+            android:id="@+id/menu_category_rb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/home_tab_category_selector"
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/menu_search_rb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/home_tab_search_selector"
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/menu_cart_rb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/home_tab_cart_selector"
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/menu_mydang_rb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/home_tab_mydang_selector"
+            android:gravity="center" />
+
+</LinearLayout>

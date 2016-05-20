@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/books_fragment"
+    android:focusable="true"
+    android:background="#7AFFFFFF">
+
+    <ImageView
+        android:id="@+id/books_iv_01"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:focusable="true"
+        android:src="@drawable/dd_scroll_2"/>
+
+    <TextView
+        android:id="@+id/books_tv_01"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="11111"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/books_tv_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="图书畅销榜"
+            android:gravity="center"
+            android:background="@drawable/category_tvbar" />
+
+        <TextView
+            android:id="@+id/books_tv_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="新书热卖榜"
+            android:gravity="center"
+            android:background="@drawable/category_tvbar"/>
+
+        <TextView
+            android:id="@+id/books_tv_04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="童书畅销榜"
+            android:gravity="center"
+            android:background="@drawable/category_tvbar"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/books_tv_05"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="文艺"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/books_tv_06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="小说"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="文学"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="传记"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/books_tv_09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="青春文学"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="动漫/幽默"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="艺术"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/books_tv_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="摄影"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="偶像明星"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="涂色/填色"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/books_tv_15"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="人文社科"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/books_tv_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="哲学宗教"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="历史"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="政治军事"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/books_tv_19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="文化"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="社会科学"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="心理学"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/books_tv_22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="古籍"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="法律"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+            <TextView
+                android:id="@+id/books_tv_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="经济"
+                android:gravity="center"
+                android:background="@drawable/category_tvbar"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
